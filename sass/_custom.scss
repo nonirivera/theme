@@ -1,0 +1,126 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+	margin-bottom: 0;
+	a{
+		color: set-text-color($main-color) !important;
+	}
+	.fa{
+		font-size: 18px;
+	}
+	height: 10px;
+}
+
+
+.showcase{
+	background: url('../img/showcase.jpeg') no-repeat 0 -100px;
+	height: 600px;
+	padding: 400px 0;
+	text-align: center;
+
+	h2{
+		font-size: 60px;
+		color: #fff
+	}
+
+	p{
+		font-weight: bold;
+		color: #fff;
+	}
+
+}
+
+.section-a{
+	padding: 30px 0;
+	text-align: center;
+	background: #5f2c82;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: #ffffff;
+
+	.fa{
+		font-size: $icon-size;
+	}
+}
+
+.section-b{
+	background: #e6ebf1;
+	padding: 30px 0;
+	img{
+		width:100%;
+	}
+}
+
+.panel-heading{
+	background: #5f2c82;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.panel-heading h4{
+	color: set-text-color($main-color);
+}
+
+.section-c{
+	padding: 60px 0;
+	text-align: center;
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: set-text-color($main-color);
+
+	.btn-primary{
+		background: darken($main-color, 10%);
+	}
+}
+
+.title-bar{
+	background: url('../img/showcase.jpg') no-repeat 0 -300px;
+	padding-botom: 10px;
+	border-bottom: 4px solid $main-color;
+}
+
+.main{
+	margin-top: 30px;
+}
+
+#card{
+    position: relative;
+    display: inline-block;
+}
+#card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#card:hover .img-top {
+    display: inline;
+}
+
+#aFirst{
+	color: yellowgreen;
+}
+
+#aSecond{
+	color: #ed935e;
+}
+
+#aThird{
+	color: #6debf2;
+}
+
+#caretDown{
+	font-size: 80px;
+}
+
+footer{
+	padding: 30px 0;
+	background: darken($main-color, 10%);
+	color: set-text-color($main-color);
+}
